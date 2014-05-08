@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "让cpu曲线听你的指挥", "编程之美\编程之美.vcxproj", "{EBF92018-DBC4-4695-A07B-A25CC87852AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中国象棋将帅问题", "中国象棋将帅问题\中国象棋将帅问题.vcxproj", "{7BE10467-DDB1-469D-9F5B-F5037A14AA83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF92018-DBC4-4695-A07B-A25CC87852AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBF92018-DBC4-4695-A07B-A25CC87852AF}.Debug|Win32.Build.0 = Debug|Win32
+		{EBF92018-DBC4-4695-A07B-A25CC87852AF}.Release|Win32.ActiveCfg = Release|Win32
+		{EBF92018-DBC4-4695-A07B-A25CC87852AF}.Release|Win32.Build.0 = Release|Win32
+		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Debug|Win32.Build.0 = Debug|Win32
+		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Release|Win32.ActiveCfg = Release|Win32
+		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
