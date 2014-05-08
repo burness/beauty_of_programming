@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "让cpu曲线听你的指挥
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中国象棋将帅问题", "中国象棋将帅问题\中国象棋将帅问题.vcxproj", "{7BE10467-DDB1-469D-9F5B-F5037A14AA83}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "一摞烙饼的排序", "一摞烙饼的排序\一摞烙饼的排序.vcxproj", "{DB68D6F5-0EA5-4B6F-AA3C-7C7A40536702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Debug|Win32.Build.0 = Debug|Win32
 		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Release|Win32.ActiveCfg = Release|Win32
 		{7BE10467-DDB1-469D-9F5B-F5037A14AA83}.Release|Win32.Build.0 = Release|Win32
+		{DB68D6F5-0EA5-4B6F-AA3C-7C7A40536702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB68D6F5-0EA5-4B6F-AA3C-7C7A40536702}.Debug|Win32.Build.0 = Debug|Win32
+		{DB68D6F5-0EA5-4B6F-AA3C-7C7A40536702}.Release|Win32.ActiveCfg = Release|Win32
+		{DB68D6F5-0EA5-4B6F-AA3C-7C7A40536702}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
