@@ -9,6 +9,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "一摞烙饼的排序", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "买书问题", "买书问题\买书问题.vcxproj", "{A78260A5-E10F-44EE-A275-94A414D3F1CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "快速找出故障机器", "快速找出故障机器\快速找出故障机器.vcxproj", "{7C66CA2F-3284-4F82-ACD1-F1B47EEE018E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "饮料供货", "饮料供货\饮料供货.vcxproj", "{D145262A-0386-4B27-BF22-F7CCB6BE6EFD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "光影切割问题", "光影切割问题\光影切割问题.vcxproj", "{FD4A9220-0919-4EA3-AB92-E888B454A36E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电梯调度算法", "电梯跳读算法\电梯跳读算法.vcxproj", "{347864DA-AAC5-4641-AC54-2AFE406CB1B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +39,22 @@ Global
 		{A78260A5-E10F-44EE-A275-94A414D3F1CA}.Debug|Win32.Build.0 = Debug|Win32
 		{A78260A5-E10F-44EE-A275-94A414D3F1CA}.Release|Win32.ActiveCfg = Release|Win32
 		{A78260A5-E10F-44EE-A275-94A414D3F1CA}.Release|Win32.Build.0 = Release|Win32
+		{7C66CA2F-3284-4F82-ACD1-F1B47EEE018E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C66CA2F-3284-4F82-ACD1-F1B47EEE018E}.Debug|Win32.Build.0 = Debug|Win32
+		{7C66CA2F-3284-4F82-ACD1-F1B47EEE018E}.Release|Win32.ActiveCfg = Release|Win32
+		{7C66CA2F-3284-4F82-ACD1-F1B47EEE018E}.Release|Win32.Build.0 = Release|Win32
+		{D145262A-0386-4B27-BF22-F7CCB6BE6EFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D145262A-0386-4B27-BF22-F7CCB6BE6EFD}.Debug|Win32.Build.0 = Debug|Win32
+		{D145262A-0386-4B27-BF22-F7CCB6BE6EFD}.Release|Win32.ActiveCfg = Release|Win32
+		{D145262A-0386-4B27-BF22-F7CCB6BE6EFD}.Release|Win32.Build.0 = Release|Win32
+		{FD4A9220-0919-4EA3-AB92-E888B454A36E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD4A9220-0919-4EA3-AB92-E888B454A36E}.Debug|Win32.Build.0 = Debug|Win32
+		{FD4A9220-0919-4EA3-AB92-E888B454A36E}.Release|Win32.ActiveCfg = Release|Win32
+		{FD4A9220-0919-4EA3-AB92-E888B454A36E}.Release|Win32.Build.0 = Release|Win32
+		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Debug|Win32.Build.0 = Debug|Win32
+		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Release|Win32.ActiveCfg = Release|Win32
+		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
