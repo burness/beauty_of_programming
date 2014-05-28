@@ -3,13 +3,9 @@
 using namespace std;
 int count_5(int N){//即N！的末尾0的个数
 	int count=0;
-	for (int i=1;i<=N;i++)
-	{
-		int j=i;
-		while(j%5==0){
-			count++;
-			j=j/5;
-		}
+	while(N){
+		count+=N/5;
+		N/=5;
 	}
 	return count;
 }

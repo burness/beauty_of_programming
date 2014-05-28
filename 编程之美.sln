@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24点游戏", "24点游戏\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二进制中1的个数", "二进制中1的个数\二进制中1的个数.vcxproj", "{80F0D3E7-CDFD-4B38-808A-7968B90399D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不要被阶乘吓到", "不要被阶乘吓到\不要被阶乘吓到.vcxproj", "{D166D2F7-EEAA-4430-939B-9AFEE17FB954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -79,6 +81,10 @@ Global
 		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Debug|Win32.Build.0 = Debug|Win32
 		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Release|Win32.ActiveCfg = Release|Win32
 		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Release|Win32.Build.0 = Release|Win32
+		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Debug|Win32.Build.0 = Debug|Win32
+		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Release|Win32.ActiveCfg = Release|Win32
+		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
