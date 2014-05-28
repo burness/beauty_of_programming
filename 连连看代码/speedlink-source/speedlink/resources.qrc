@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pattern/pattern.png</file>
+        <file>buttonImages/disorder.png</file>
+        <file>buttonImages/hint.png</file>
+        <file>buttonImages/life.png</file>
+        <file>buttonImages/time.png</file>
+        <file>background/background.png</file>
+        <file>levelPreview/level1.png</file>
+        <file>levelPreview/level2.png</file>
+        <file>levelPreview/level3.png</file>
+        <file>levelPreview/level4.png</file>
+        <file>levelPreview/level5.png</file>
+    </qresource>
+</RCC>

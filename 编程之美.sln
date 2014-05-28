@@ -17,6 +17,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "光影切割问题", "光�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电梯调度算法", "电梯跳读算法\电梯跳读算法.vcxproj", "{347864DA-AAC5-4641-AC54-2AFE406CB1B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "高效率地安排见面会", "高效率地安排见面会\高效率地安排见面会.vcxproj", "{3D95F829-853B-4448-A248-F267E428F270}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双线程高效下载", "双线程高效下载\双线程高效下载.vcxproj", "{58B6CB0A-0DE9-4C92-A667-B7A34BDA820E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24点游戏", "24点游戏\24点游戏.vcxproj", "{5E9958BF-7A65-4638-B854-815BE35EFEEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二进制中1的个数", "二进制中1的个数\二进制中1的个数.vcxproj", "{80F0D3E7-CDFD-4B38-808A-7968B90399D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,6 +63,22 @@ Global
 		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Debug|Win32.Build.0 = Debug|Win32
 		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Release|Win32.ActiveCfg = Release|Win32
 		{347864DA-AAC5-4641-AC54-2AFE406CB1B3}.Release|Win32.Build.0 = Release|Win32
+		{3D95F829-853B-4448-A248-F267E428F270}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D95F829-853B-4448-A248-F267E428F270}.Debug|Win32.Build.0 = Debug|Win32
+		{3D95F829-853B-4448-A248-F267E428F270}.Release|Win32.ActiveCfg = Release|Win32
+		{3D95F829-853B-4448-A248-F267E428F270}.Release|Win32.Build.0 = Release|Win32
+		{58B6CB0A-0DE9-4C92-A667-B7A34BDA820E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58B6CB0A-0DE9-4C92-A667-B7A34BDA820E}.Debug|Win32.Build.0 = Debug|Win32
+		{58B6CB0A-0DE9-4C92-A667-B7A34BDA820E}.Release|Win32.ActiveCfg = Release|Win32
+		{58B6CB0A-0DE9-4C92-A667-B7A34BDA820E}.Release|Win32.Build.0 = Release|Win32
+		{5E9958BF-7A65-4638-B854-815BE35EFEEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E9958BF-7A65-4638-B854-815BE35EFEEC}.Debug|Win32.Build.0 = Debug|Win32
+		{5E9958BF-7A65-4638-B854-815BE35EFEEC}.Release|Win32.ActiveCfg = Release|Win32
+		{5E9958BF-7A65-4638-B854-815BE35EFEEC}.Release|Win32.Build.0 = Release|Win32
+		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Debug|Win32.Build.0 = Debug|Win32
+		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Release|Win32.ActiveCfg = Release|Win32
+		{80F0D3E7-CDFD-4B38-808A-7968B90399D9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

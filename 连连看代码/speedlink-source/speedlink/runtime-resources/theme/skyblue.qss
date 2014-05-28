@@ -1,0 +1,80 @@
+*{
+	font:"黑体";
+}
+QMainWindow,QMessageBox{
+    background-color:skyblue;
+}
+
+QLabel#headerLabel{
+    border-radius: 10px;
+	image:url(./theme/blue-title.png);
+}
+
+QProgressBar{
+    background-color:lightslategray;
+	text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+QProgressBar::chunk {
+	background-color: blue;
+	width: 20px;
+}
+
+
+MyButton,QComboBoxs{
+    border-left-color:lightblue;
+    border-top-color:lightblue;
+    border-color: #4D4D4D;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+
+     background-color:lightslategray;
+     font: 16px;
+     color: white;
+     min-width: 1em;
+     padding: 6px;
+}
+MyButton{
+	font:16px "黑体";
+}
+
+MyButton:hover{
+     border-left-width: 4px;
+     border-top-width: 4px;
+     border-right-width: 6px;
+     border-bottom-width: 6px;
+     border-radius: 10px;
+     font: bold 17px;
+     min-width: 1em;
+     padding: 6px;
+}
+MyButton:pressed{
+     border-right-width: 4px;
+     border-bottom-width: 4px;
+     border-radius: 10px;
+     font: bold 14px;
+     min-width: 1em;
+     padding: 6px;
+}
+
+QTextBrowser{
+    color: beige;
+    background-color: lightslategray;
+    border-radius: 10px;
+    font: 24px "黑体";
+}
+QTextBrowser#gameHint{
+	font:12px "宋体";
+}
+QTextBrowser#selectHintArea{
+	font:font: 18px "黑体";
+}
+
+QTreeView {
+     alternate-background-color: lightblue;
+ }
+
+

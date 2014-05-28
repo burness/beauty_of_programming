@@ -1,0 +1,5 @@
+编译环境：
+Qt4.7，Windows XP SP3以上系统环境（MCI需要Windows支持）
+编译方法：
+按照通常的Qt程序编译方法进行。
+编译完成后，将生成的exe文件与 runtime-resources下的文件夹们放入同一个文件夹下，就可以正常运行了。

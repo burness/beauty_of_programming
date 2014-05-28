@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWindow</class>
+ <widget class="QWidget" name="GameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>832</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>极速连连看</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QStackedWidget" name="uiStack">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>881</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="currentIndex">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="stackedWidgetPage2">
+    <widget class="MyButton" name="startGameNormal">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>150</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>开始游戏</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="startGameChallenge">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>216</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>挑战模式</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="topList">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>348</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>极速英雄榜</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="about">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>414</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>关于极速连连看</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="exit">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>480</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>结束游戏</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="headerLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>821</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <property name="midLineWidth">
+      <number>0</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>535</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>界面主题：</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="themeSelect">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>530</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>金色阳光</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>天蓝宝石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>柔和粉红</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTextBrowser" name="selectHintArea">
+     <property name="geometry">
+      <rect>
+       <x>519</x>
+       <y>150</y>
+       <width>301</width>
+       <height>370</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+    </widget>
+    <widget class="MyButton" name="execiseMode">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>282</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>练习模式</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="stackedWidgetPage1">
+    <widget class="QLabel" name="scoreLabel">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>40</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Comic Sans MS</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>100860</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lifeLeft">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>110</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x3</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>250</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>友情提示：</string>
+     </property>
+    </widget>
+    <widget class="DrawArea" name="drawArea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>690</width>
+       <height>460</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="timeLeft">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>15</y>
+       <width>751</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="textVisible">
+      <bool>false</bool>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="format">
+      <string>%p  %</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hintLeft">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>160</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x3</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="disorderButton">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>200</y>
+       <width>35</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>打乱布局</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/buttonImages/disorder.png</normaloff>:/buttonImages/disorder.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>821</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>100</y>
+       <width>35</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/buttonImages/life.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="disorderLeft">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>210</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x3</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>32</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/buttonImages/time.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="hintButton">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>150</y>
+       <width>35</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>提示</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/buttonImages/hint.png</normaloff>:/buttonImages/hint.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>40</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Comic Sans MS</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Score:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="levelLable">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>第1关：小试牛刀</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="musicSwitch">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>390</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>音效</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="MyButton" name="pause">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>455</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>暂停</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>510</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="gameHint">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>270</y>
+       <width>111</width>
+       <height>111</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>160</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>提示</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>210</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>重排</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>110</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>机会</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="backgroundMusicSwitch">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>420</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>背景音乐</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="statusForegroundMusic">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>390</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="statusBackgroundMusic">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>420</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="MyButton" name="backToGame">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>330</y>
+       <width>200</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回游戏</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="pauseInfo">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>150</y>
+       <width>611</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;休息一会儿，广告之后，马上回来^_^&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="MyButton" name="nextLevel">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>290</y>
+       <width>200</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>下一关</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="levelOverInfo">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>170</y>
+       <width>611</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;成功过关！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="nameInputLabel">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>310</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>英雄请留名：</string>
+     </property>
+     <property name="buddy">
+      <cstring>nameInputEdit</cstring>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nameInputEdit">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>305</y>
+       <width>161</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+    </widget>
+    <widget class="MyButton" name="successOverReturn">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>370</y>
+       <width>200</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="gameOverInfo">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>121</y>
+       <width>551</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QTreeView" name="normalListView">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>241</width>
+       <height>355</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <property name="headerHidden">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTreeView" name="challengeListView">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>130</y>
+       <width>241</width>
+       <height>355</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="midLineWidth">
+      <number>0</number>
+     </property>
+     <property name="autoScroll">
+      <bool>false</bool>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <property name="itemsExpandable">
+      <bool>false</bool>
+     </property>
+     <property name="headerHidden">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="MyButton" name="backFromTopList">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>500</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="normalLabel">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>90</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>普通模式</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="challengeLabel">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>90</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>挑战模式</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="topListTitlelabel">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>10</y>
+       <width>331</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>23</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>极速英雄榜</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="MyButton" name="backFromAbout">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>510</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>380</y>
+       <width>801</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;关于极速连连看2.0&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;版权所有 千羽鸣&amp;lt;tang_yanhan@126.com&amp;gt;.源码自动遵从LGPL协议，使用请务必取得作者同意欢迎各种改进。源码及设计尚未公布，现在可直接邮件索取&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;这是游戏的2.0版本，借助诺基亚的QtSDK在Linux/Windows下开发，开发过程中还开发了地图编辑器、图片资源合成器等工具软件，借助CVS对代码、资源、运行时文件等进行版本管理&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;极速连连看是一个针对现有大部分连连看作了改进的小游戏，希望大家能够喜欢！如有问题或建议请邮件联系 &amp;lt;tang_yanhan@126.com&amp;gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;千羽鸣&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>801</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;怎么玩？&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;进入游戏之后，分别点击两个相同的图案，如果它们可以用一条两折以内的线相连，那么就可以消除它们。在短时间内连续消除的图案越多，加分也就越高，如果不能在限定的时间和机会之内消完图案，那么游戏结束&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;找不到可以消的图案肿么办？&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;试试点击右边的两个小按钮，魔法棒会把一对可以消除的图案用框框起来。另外一个按钮可以打乱现在的布局。不过注意了，用这些道具的机会有限，用完不送哦&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;没有图案可消肿么办？&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;当画面中还有图案却无法正常消除（称为“僵局”），会自动进入“上帝模式”，这时点击任何一对相同的图案都会直接消图。“僵局”结束后“上帝模式”就会自动终止。“僵局”中的消块按正常消块计算，不会影响成绩&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;游戏模式&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;游戏分为三个模式：普通模式、挑战模式和练习模式。普通模式下每关时间限制比较短，但可以通过消块增加时间；挑战模式时间较长，游戏中消除图案不会增加时间，而且机会也只有一次，听起来很有挑战性哟！练习模式下则要宽容得多，你可以尝试那些先前未能通过的关卡，只不过最后通过的分数不会被记录&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>801</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;在此内牛满面地鸣谢～～&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;感谢钰龙兄对界面配色提出的优秀改进建议～&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;感谢各位童鞋对游戏提出的宝贵意见～&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;感谢那些未能联系到的素材作者～&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <widget class="QListWidget" name="levelListWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>300</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>60</y>
+       <width>481</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>选择一个关卡后点击&quot;普通模式&quot;或&quot;挑战模式&quot;进入！</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="singleLevelNormal">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>200</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>普通模式</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="singleLevelChallenge">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>300</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>挑战模式</string>
+     </property>
+    </widget>
+    <widget class="MyButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>490</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>10</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>练习模式</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DrawArea</class>
+   <extends>QWidget</extends>
+   <header location="global">drawarea.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MyButton</class>
+   <extends>QToolButton</extends>
+   <header location="global">mybutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>exit</tabstop>
+  <tabstop>disorderButton</tabstop>
+  <tabstop>hintButton</tabstop>
+  <tabstop>musicSwitch</tabstop>
+  <tabstop>pause</tabstop>
+  <tabstop>back</tabstop>
+  <tabstop>gameHint</tabstop>
+  <tabstop>backToGame</tabstop>
+  <tabstop>nextLevel</tabstop>
+  <tabstop>nameInputEdit</tabstop>
+  <tabstop>successOverReturn</tabstop>
+  <tabstop>normalListView</tabstop>
+  <tabstop>challengeListView</tabstop>
+  <tabstop>backFromTopList</tabstop>
+  <tabstop>gameOverInfo</tabstop>
+  <tabstop>startGameNormal</tabstop>
+  <tabstop>about</tabstop>
+  <tabstop>topList</tabstop>
+  <tabstop>startGameChallenge</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

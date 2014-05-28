@@ -1,0 +1,73 @@
+*{
+	font:"黑体";
+}
+QMainWindow,QMessageBox{
+    background-color:#fed9e3;
+}
+QLabel#headerLabel{
+	image:url(./theme/pink-title.png);
+}
+
+QProgressBar{
+    background-color:lightpink;
+	text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+QProgressBar::chunk {
+	background-color: hotpink;
+	width: 20px;
+}
+
+
+MyButton,QComboBox{
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #fa6c9a;
+     background-color:#f2375f;
+     font:16px;
+     color: beige;
+     min-width: 1em;
+     padding: 6px;
+}
+MyButton{
+	font:16px "黑体";
+}
+
+MyButton:hover{
+     border-left-width: 3px;
+     border-top-width: 3px;
+     border-right-width: 5px;
+     border-bottom-width: 5px;
+     font: bold 17px;
+     min-width: 1em;
+     padding: 6px;
+}
+MyButton:pressed{
+     border-right-width: 4px;
+     border-bottom-width: 4px;
+     border-radius: 10px;
+     font: bold 14px;
+     min-width: 1em;
+     padding: 6px;
+}
+
+QTextBrowser{
+    color: beige;
+    background-color: #fa6c9a;
+    border-radius: 10px;
+    font: 24px "黑体";
+}
+QTextBrowser#gameHint{
+	font:12px "宋体";
+}
+QTextBrowser#selectHintArea{
+	font:font: 18px "黑体";
+}
+QTreeView {
+     alternate-background-color: pink;
+ }
+
+

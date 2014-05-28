@@ -1,0 +1,4 @@
+编译环境：
+Qt4.7，Windows/Linux均可
+作用：
+imageComposer将会把所有当前文件夹下的png格式图片加框、缩放为46X46大小后全部合成到一个名为pattern.png的图片中
