@@ -27,6 +27,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二进制中1的个数", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不要被阶乘吓到", "不要被阶乘吓到\不要被阶乘吓到.vcxproj", "{D166D2F7-EEAA-4430-939B-9AFEE17FB954}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找发帖水王", "寻找发帖水王\寻找发帖水王.vcxproj", "{34DF4FE4-D991-490E-8015-FF3915EF3514}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找1的数目", "寻找1的数目\寻找1的数目.vcxproj", "{4076FA03-F810-4279-AD69-BF7706884277}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找最大的K个数", "寻找最大的K个数\寻找最大的K个数.vcxproj", "{553ECA14-4909-4018-80E8-BBD6CF2D891C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -85,6 +91,18 @@ Global
 		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Debug|Win32.Build.0 = Debug|Win32
 		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Release|Win32.ActiveCfg = Release|Win32
 		{D166D2F7-EEAA-4430-939B-9AFEE17FB954}.Release|Win32.Build.0 = Release|Win32
+		{34DF4FE4-D991-490E-8015-FF3915EF3514}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34DF4FE4-D991-490E-8015-FF3915EF3514}.Debug|Win32.Build.0 = Debug|Win32
+		{34DF4FE4-D991-490E-8015-FF3915EF3514}.Release|Win32.ActiveCfg = Release|Win32
+		{34DF4FE4-D991-490E-8015-FF3915EF3514}.Release|Win32.Build.0 = Release|Win32
+		{4076FA03-F810-4279-AD69-BF7706884277}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4076FA03-F810-4279-AD69-BF7706884277}.Debug|Win32.Build.0 = Debug|Win32
+		{4076FA03-F810-4279-AD69-BF7706884277}.Release|Win32.ActiveCfg = Release|Win32
+		{4076FA03-F810-4279-AD69-BF7706884277}.Release|Win32.Build.0 = Release|Win32
+		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Debug|Win32.Build.0 = Debug|Win32
+		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Release|Win32.ActiveCfg = Release|Win32
+		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
