@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找1的数目", "寻找1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找最大的K个数", "寻找最大的K个数\寻找最大的K个数.vcxproj", "{553ECA14-4909-4018-80E8-BBD6CF2D891C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大公约数", "最大公约数\最大公约数.vcxproj", "{665D58A0-8F42-45A4-A197-30A4246F0B7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数列", "斐波那契数列\斐波那契数列.vcxproj", "{55AB54E7-E63D-4649-9E3C-BFB58CF1DCB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -103,6 +107,14 @@ Global
 		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Debug|Win32.Build.0 = Debug|Win32
 		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Release|Win32.ActiveCfg = Release|Win32
 		{553ECA14-4909-4018-80E8-BBD6CF2D891C}.Release|Win32.Build.0 = Release|Win32
+		{665D58A0-8F42-45A4-A197-30A4246F0B7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{665D58A0-8F42-45A4-A197-30A4246F0B7E}.Debug|Win32.Build.0 = Debug|Win32
+		{665D58A0-8F42-45A4-A197-30A4246F0B7E}.Release|Win32.ActiveCfg = Release|Win32
+		{665D58A0-8F42-45A4-A197-30A4246F0B7E}.Release|Win32.Build.0 = Release|Win32
+		{55AB54E7-E63D-4649-9E3C-BFB58CF1DCB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55AB54E7-E63D-4649-9E3C-BFB58CF1DCB6}.Debug|Win32.Build.0 = Debug|Win32
+		{55AB54E7-E63D-4649-9E3C-BFB58CF1DCB6}.Release|Win32.ActiveCfg = Release|Win32
+		{55AB54E7-E63D-4649-9E3C-BFB58CF1DCB6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
