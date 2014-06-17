@@ -39,6 +39,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数列", "斐�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找最近点对", "寻找最近点对\寻找最近点对.vcxproj", "{38E9FD51-562C-47A1-9BF8-352FD17D3D82}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找和为定值的数对", "寻找和为定值的数对\寻找和为定值的数对.vcxproj", "{F09CBE93-A2CD-480E-9423-C18D1469D700}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "子数组的最大乘积", "子数组的最大乘积\子数组的最大乘积.vcxproj", "{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -121,6 +125,14 @@ Global
 		{38E9FD51-562C-47A1-9BF8-352FD17D3D82}.Debug|Win32.Build.0 = Debug|Win32
 		{38E9FD51-562C-47A1-9BF8-352FD17D3D82}.Release|Win32.ActiveCfg = Release|Win32
 		{38E9FD51-562C-47A1-9BF8-352FD17D3D82}.Release|Win32.Build.0 = Release|Win32
+		{F09CBE93-A2CD-480E-9423-C18D1469D700}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F09CBE93-A2CD-480E-9423-C18D1469D700}.Debug|Win32.Build.0 = Debug|Win32
+		{F09CBE93-A2CD-480E-9423-C18D1469D700}.Release|Win32.ActiveCfg = Release|Win32
+		{F09CBE93-A2CD-480E-9423-C18D1469D700}.Release|Win32.Build.0 = Release|Win32
+		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Debug|Win32.Build.0 = Debug|Win32
+		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Release|Win32.ActiveCfg = Release|Win32
+		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
