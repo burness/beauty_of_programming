@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找和为定值的数对
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "子数组的最大乘积", "子数组的最大乘积\子数组的最大乘积.vcxproj", "{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求数组的子数组之和的最大值", "求数组的子数组之和的最大值\求数组的子数组之和的最大值.vcxproj", "{9D97A1C8-C17B-4B92-A002-796EBF860E23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -133,6 +135,10 @@ Global
 		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Debug|Win32.Build.0 = Debug|Win32
 		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Release|Win32.ActiveCfg = Release|Win32
 		{58DA1A3E-8AF6-405D-AE67-1A334B8F7D67}.Release|Win32.Build.0 = Release|Win32
+		{9D97A1C8-C17B-4B92-A002-796EBF860E23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D97A1C8-C17B-4B92-A002-796EBF860E23}.Debug|Win32.Build.0 = Debug|Win32
+		{9D97A1C8-C17B-4B92-A002-796EBF860E23}.Release|Win32.ActiveCfg = Release|Win32
+		{9D97A1C8-C17B-4B92-A002-796EBF860E23}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
