@@ -13,7 +13,7 @@ int LIS(int d[], int n){
 			else right = mid - 1;
 		}
 		B[left] = d[i]; //插入
-		if(left > len) len++; //d[i]比现有的所有数字都大，所以 left 才会大于 len。
+		if(left > len) len++; //d[i]比现有的所有数字都大，所以 left 才会大于 len。 
 	}
 	delete[] B;
 	return len;
