@@ -47,6 +47,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求数组的子数组之和
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求数组中最常递增子序列", "求数组中最常递增子序列\求数组中最常递增子序列.vcxproj", "{C27E9CEB-23B3-4FB1-BC35-BA31CF7D30AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组循环移位", "数组循环移位\数组循环移位.vcxproj", "{109DFC3D-889E-4FD3-AD6E-C289485F58BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组分割", "数组分割\数组分割.vcxproj", "{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -145,6 +149,14 @@ Global
 		{C27E9CEB-23B3-4FB1-BC35-BA31CF7D30AA}.Debug|Win32.Build.0 = Debug|Win32
 		{C27E9CEB-23B3-4FB1-BC35-BA31CF7D30AA}.Release|Win32.ActiveCfg = Release|Win32
 		{C27E9CEB-23B3-4FB1-BC35-BA31CF7D30AA}.Release|Win32.Build.0 = Release|Win32
+		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Debug|Win32.Build.0 = Debug|Win32
+		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Release|Win32.ActiveCfg = Release|Win32
+		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Release|Win32.Build.0 = Release|Win32
+		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Debug|Win32.Build.0 = Debug|Win32
+		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Release|Win32.ActiveCfg = Release|Win32
+		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
