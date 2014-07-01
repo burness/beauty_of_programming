@@ -49,9 +49,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求数组中最常递增子
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组循环移位", "数组循环移位\数组循环移位.vcxproj", "{109DFC3D-889E-4FD3-AD6E-C289485F58BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组分割", "数组分割\数组分割.vcxproj", "{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串移位包含问题", "字符串移位包含问题\字符串移位包含问题.vcxproj", "{5297A898-0F81-46C6-ABD6-FAA90E81E8F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串移位包含", "字符串移位包含\字符串移位包含.vcxproj", "{A9AAB367-73C3-4195-957F-48DBDFAE8552}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "区间重合判断", "区间重合判断\区间重合判断.vcxproj", "{88863B03-0F4D-4C78-84AB-EC29A4A95D49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电话号码对应英语单词", "电话号码对应英语单词\电话号码对应英语单词.vcxproj", "{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,14 +159,22 @@ Global
 		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Debug|Win32.Build.0 = Debug|Win32
 		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Release|Win32.ActiveCfg = Release|Win32
 		{109DFC3D-889E-4FD3-AD6E-C289485F58BA}.Release|Win32.Build.0 = Release|Win32
-		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Debug|Win32.ActiveCfg = Debug|Win32
-		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Debug|Win32.Build.0 = Debug|Win32
-		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Release|Win32.ActiveCfg = Release|Win32
-		{1E98577F-DB6B-4EA0-9A8F-B6D0E187D2B6}.Release|Win32.Build.0 = Release|Win32
 		{5297A898-0F81-46C6-ABD6-FAA90E81E8F8}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5297A898-0F81-46C6-ABD6-FAA90E81E8F8}.Debug|Win32.Build.0 = Debug|Win32
 		{5297A898-0F81-46C6-ABD6-FAA90E81E8F8}.Release|Win32.ActiveCfg = Release|Win32
 		{5297A898-0F81-46C6-ABD6-FAA90E81E8F8}.Release|Win32.Build.0 = Release|Win32
+		{A9AAB367-73C3-4195-957F-48DBDFAE8552}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9AAB367-73C3-4195-957F-48DBDFAE8552}.Debug|Win32.Build.0 = Debug|Win32
+		{A9AAB367-73C3-4195-957F-48DBDFAE8552}.Release|Win32.ActiveCfg = Release|Win32
+		{A9AAB367-73C3-4195-957F-48DBDFAE8552}.Release|Win32.Build.0 = Release|Win32
+		{88863B03-0F4D-4C78-84AB-EC29A4A95D49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88863B03-0F4D-4C78-84AB-EC29A4A95D49}.Debug|Win32.Build.0 = Debug|Win32
+		{88863B03-0F4D-4C78-84AB-EC29A4A95D49}.Release|Win32.ActiveCfg = Release|Win32
+		{88863B03-0F4D-4C78-84AB-EC29A4A95D49}.Release|Win32.Build.0 = Release|Win32
+		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Debug|Win32.Build.0 = Debug|Win32
+		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Release|Win32.ActiveCfg = Release|Win32
+		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
