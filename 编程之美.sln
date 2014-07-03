@@ -57,6 +57,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "区间重合判断", "区�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电话号码对应英语单词", "电话号码对应英语单词\电话号码对应英语单词.vcxproj", "{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计算字符串的相似度", "计算字符串的相似度\计算字符串的相似度.vcxproj", "{BFF80624-BA6A-4414-A5C6-32402AB003C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "从无头单链表中删除节点", "从无头单链表中删除节点\从无头单链表中删除节点.vcxproj", "{F0E67006-61A5-46E0-87E4-370149712A92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -175,6 +179,14 @@ Global
 		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Debug|Win32.Build.0 = Debug|Win32
 		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Release|Win32.ActiveCfg = Release|Win32
 		{69E51E61-B6D8-4F30-ADE6-F2265F59EB54}.Release|Win32.Build.0 = Release|Win32
+		{BFF80624-BA6A-4414-A5C6-32402AB003C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFF80624-BA6A-4414-A5C6-32402AB003C0}.Debug|Win32.Build.0 = Debug|Win32
+		{BFF80624-BA6A-4414-A5C6-32402AB003C0}.Release|Win32.ActiveCfg = Release|Win32
+		{BFF80624-BA6A-4414-A5C6-32402AB003C0}.Release|Win32.Build.0 = Release|Win32
+		{F0E67006-61A5-46E0-87E4-370149712A92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0E67006-61A5-46E0-87E4-370149712A92}.Debug|Win32.Build.0 = Debug|Win32
+		{F0E67006-61A5-46E0-87E4-370149712A92}.Release|Win32.ActiveCfg = Release|Win32
+		{F0E67006-61A5-46E0-87E4-370149712A92}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
