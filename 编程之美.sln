@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计算字符串的相似度
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "从无头单链表中删除节点", "从无头单链表中删除节点\从无头单链表中删除节点.vcxproj", "{F0E67006-61A5-46E0-87E4-370149712A92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最短摘要的生成", "最短摘要的生成\最短摘要的生成.vcxproj", "{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -187,6 +189,10 @@ Global
 		{F0E67006-61A5-46E0-87E4-370149712A92}.Debug|Win32.Build.0 = Debug|Win32
 		{F0E67006-61A5-46E0-87E4-370149712A92}.Release|Win32.ActiveCfg = Release|Win32
 		{F0E67006-61A5-46E0-87E4-370149712A92}.Release|Win32.Build.0 = Release|Win32
+		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Debug|Win32.Build.0 = Debug|Win32
+		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Release|Win32.ActiveCfg = Release|Win32
+		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
