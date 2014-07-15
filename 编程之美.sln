@@ -63,6 +63,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "从无头单链表中删除
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最短摘要的生成", "最短摘要的生成\最短摘要的生成.vcxproj", "{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断两个链表是否相交", "判断两个链表是否相交\判断两个链表是否相交.vcxproj", "{F019DF4D-EAAE-4AD0-8610-F91CEDDBEF59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列中取最大值操作", "队列中取最大值操作\队列中取最大值操作.vcxproj", "{1A4A3F1E-B3ED-4D1A-8774-56DDCB702B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -193,6 +197,14 @@ Global
 		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Debug|Win32.Build.0 = Debug|Win32
 		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Release|Win32.ActiveCfg = Release|Win32
 		{2C8F2485-7DC3-4E07-90F3-C784F7D30A98}.Release|Win32.Build.0 = Release|Win32
+		{F019DF4D-EAAE-4AD0-8610-F91CEDDBEF59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F019DF4D-EAAE-4AD0-8610-F91CEDDBEF59}.Debug|Win32.Build.0 = Debug|Win32
+		{F019DF4D-EAAE-4AD0-8610-F91CEDDBEF59}.Release|Win32.ActiveCfg = Release|Win32
+		{F019DF4D-EAAE-4AD0-8610-F91CEDDBEF59}.Release|Win32.Build.0 = Release|Win32
+		{1A4A3F1E-B3ED-4D1A-8774-56DDCB702B0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A4A3F1E-B3ED-4D1A-8774-56DDCB702B0C}.Debug|Win32.Build.0 = Debug|Win32
+		{1A4A3F1E-B3ED-4D1A-8774-56DDCB702B0C}.Release|Win32.ActiveCfg = Release|Win32
+		{1A4A3F1E-B3ED-4D1A-8774-56DDCB702B0C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
